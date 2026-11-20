@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://lrbgh4841alb"]
+
+[ext_resource type="Script" uid="uid://bnrordtj2r3xl" path="res://Scripts/bullet.gd" id="1_oduel"]
+[ext_resource type="Texture2D" uid="uid://l3g76jn5dgpf" path="res://Sprites/Lightning Bolt.png" id="2_oduel"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v8qja"]
+size = Vector2(758.5, 281)
+
+[node name="Bullet" type="Area2D" unique_id=2072259214]
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("1_oduel")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=641990419]
+position = Vector2(71.75, 43.5)
+shape = SubResource("RectangleShape2D_v8qja")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=528830072]
+position = Vector2(57.5, 68)
+rotation = 3.9269907
+scale = Vector2(6, 6)
+texture = ExtResource("2_oduel")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

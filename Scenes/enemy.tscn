@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://bcsg5nfu6ha08"]
+
+[ext_resource type="Texture2D" uid="uid://cj6e2ffmybupb" path="res://Sprites/Squirell.png" id="1_hghv2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7k104"]
+size = Vector2(849.875, 958.75)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tnm5q"]
+size = Vector2(930, 1061)
+
+[node name="Enemy" type="CharacterBody2D" unique_id=252799278]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=435040293]
+position = Vector2(7.0625, -1.375)
+shape = SubResource("RectangleShape2D_7k104")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1315384029]
+position = Vector2(2.0000153, -2.0000153)
+scale = Vector2(9, 9)
+texture = ExtResource("1_hghv2")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=48308909]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=982471745]
+position = Vector2(6, 0.5)
+shape = SubResource("RectangleShape2D_tnm5q")

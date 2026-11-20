@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cyhtn52me3t8i"
-path="res://.godot/imported/Base Mao.png-418269a4e2626192e3805547187f91dd.ctex"
+uid="uid://41ebpv0k54j0"
+path="res://.godot/imported/New Piskel (2).png-59fc3ebc39681f25562a64cee0e9bf97.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Base Mao.png"
-dest_files=["res://.godot/imported/Base Mao.png-418269a4e2626192e3805547187f91dd.ctex"]
+source_file="res://Sprites/New Piskel (2).png"
+dest_files=["res://.godot/imported/New Piskel (2).png-59fc3ebc39681f25562a64cee0e9bf97.ctex"]
 
 [params]
 

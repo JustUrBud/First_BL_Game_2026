@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c67yobrf0db1n"
-path="res://.godot/imported/Black.png-7579103388df317c8c1bcccb29fb5e9b.ctex"
+uid="uid://l3g76jn5dgpf"
+path="res://.godot/imported/Lightning Bolt.png-cb6af8a505c3ffae00ead2e24666538b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Black.png"
-dest_files=["res://.godot/imported/Black.png-7579103388df317c8c1bcccb29fb5e9b.ctex"]
+source_file="res://Sprites/Lightning Bolt.png"
+dest_files=["res://.godot/imported/Lightning Bolt.png-cb6af8a505c3ffae00ead2e24666538b.ctex"]
 
 [params]
 

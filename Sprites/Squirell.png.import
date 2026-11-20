@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://45juqdnqg7bg"
-path="res://.godot/imported/Birb.png-61bcc2a6dee4e292465d1f9e0fca6939.ctex"
+uid="uid://cj6e2ffmybupb"
+path="res://.godot/imported/Squirell.png-741041b7a8e45cafaaadc155ab0dcb67.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Birb.png"
-dest_files=["res://.godot/imported/Birb.png-61bcc2a6dee4e292465d1f9e0fca6939.ctex"]
+source_file="res://Sprites/Squirell.png"
+dest_files=["res://.godot/imported/Squirell.png-741041b7a8e45cafaaadc155ab0dcb67.ctex"]
 
 [params]
 
